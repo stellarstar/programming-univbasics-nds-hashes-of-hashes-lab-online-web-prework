@@ -1,21 +1,20 @@
-def naming_system
-  child = {
-  :name=>["Carrie Fisher"],
-  :mother=>[]
-  },
-  child2 = {
-  :name=>["Debbie Reynolds"],
-  :mother=>[],
-  :name=> ["Maxene Reynolds"]
-  },
-  child3 = {
-  :father=>[]
-  },
-  child4 = {
-  :father=>[],
-  :name=>["Eddie Fisher"],
-  :mother=>[],
-  :father=>[]
-  },
-}
+def naming_system 
+ {
+  label: "Kingdom",
+  sub_category:{
+    
+  label: "Phylum",
+  sub_category:{
+       
+  label: "Class",
+  sub_category:{
+
+  label : "Order",
+  sub_category :{
+ }
+  }
+    }
+      }
+        }
+
 end
