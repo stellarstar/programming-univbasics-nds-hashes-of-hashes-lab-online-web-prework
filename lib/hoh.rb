@@ -19,17 +19,11 @@ def naming_system
   sub_category: {
     
   label: "Species",
-  sub_category: {
-    
-  
-  sub_category: nil: {
+  sub_category: nil: }
  }
   }
     }
       }
         }
           }
-            }
-              }
- }
 end
